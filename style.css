@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: #fff;
+    color: black;
+    height: 30rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.content {
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: white;
+    margin-top: 1.1rem;
+    border: 2px solid black;
+}
+
+.container.disable .content, .container.disable .btns .save,.container.disable .btns .reset {
+pointer-events: none;
+opacity: 0.5;
+}
+.btns {
+    margin-top: 1.2rem;
+    height: 6
+    rem;
+    width: 100%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer
+}
+
+.btns button {
+    /* padding: 0.5rem; */
+    height: 2.4rem;
+    width:  6.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.filter_btns button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: white;
+    color: darkgray;
+}
+
+.all_filters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1.2rem;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+.imgae_section {
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed red;
+    overflow: hidden;
+    
+}
+.imgae_section img{
+    object-fit: contain;
+    height: 16rem;
+    width: 30rem;
+    padding: 0.2rem;
+    overflow: hidden;
+}
+.all_filters .filter_btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    cursor: pointer
+}
+.all_filters .filter_btns .active{
+    background-color: blue;
+    color: white;
+}
+.all_filters .filter_btns button{
+    color: white;
+    width: 5rem;
+    text-align: center;
+    height: 2rem;
+    background-color: red;
+}
+.content .rotate_btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content .rotate_btns button {
+    border-radius: 5px;
+    padding: 0.5rem;
+    height: 1.5rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: blue; */
+}
+.filter_info .filter_details{
+display: flex;
+gap: 1.2rem;
+}
+
