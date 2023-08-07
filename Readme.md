@@ -15,7 +15,7 @@ JS-Image-editor is a web-based image editing tool developed using HTML, CSS, and
 
 ## Demo 🚀
 
-(watch)[https://onkar156.github.io/js-image-editor/]
+[watch](https://onkar156.github.io/js-image-editor/)
 
 ## Getting Started 🛠️
 
